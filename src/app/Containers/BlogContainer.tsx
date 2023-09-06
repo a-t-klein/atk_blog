@@ -4,7 +4,30 @@ import { BlogPostProps } from "../Interfaces";
 
 const BlogContainer = () => {
   return (
-    <div>loading :)</div>
+    <div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+      <div>loading :)</div>
+    </div>
+
     // <div>
     //   {posts.map((post, i) => (
     //     <BlogPreview
