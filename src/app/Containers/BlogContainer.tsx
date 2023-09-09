@@ -5,7 +5,15 @@ import { BlogPostProps } from "../Interfaces";
 const BlogContainer = () => {
   return (
     <div>
-      <div>loading :)</div>
+      <BlogPreview
+        id="3asdf"
+        img="https://picsum.photos/id/870/200/300?grayscale&blur=2"
+        altTxt="img"
+        title="new blog!"
+        text=""
+        description="blog post"
+        tags={["cool", "first"]}
+      />
       <div>loading :)</div>
       <div>loading :)</div>
       <div>loading :)</div>

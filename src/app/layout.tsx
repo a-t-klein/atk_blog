@@ -18,13 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div className="flex flex-col min-h-screen bg-background-light text-primary-red p-5">
+      <body className="flex flex-col min-h-screen bg-background-light text-primary-red p-5">
         <Header />
         <div className="flex-grow">
           <main className={mono.className}>{children}</main>
         </div>
         <Footer />
-      </div>
+      </body>
     </html>
   );
 }

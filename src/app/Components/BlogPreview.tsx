@@ -3,7 +3,7 @@ import Image from "next/image";
 import { BlogPostProps } from "../Interfaces";
 
 const BlogPreview: React.FC<BlogPostProps> = ({
-  key,
+  id,
   img,
   altTxt,
   title,
@@ -11,8 +11,10 @@ const BlogPreview: React.FC<BlogPostProps> = ({
   tags,
 }) => {
   return (
-    <div key = {key}>
-      <Image src={img} alt={altTxt} />
+    <div key={id} className="grid md:grid-cols-2 sm:grid-cols-1">
+      <div className="w-full relative">
+        <Image src={img} alt={altTxt} width={300} height={150} />
+      </div>
       <div>
         <h1>{title}</h1>
         <p>{description}</p>

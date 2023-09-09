@@ -1,5 +1,5 @@
 export interface BlogPostProps {
-  key: string;
+  id: string;
   img: string;
   altTxt: string;
   description: string;
