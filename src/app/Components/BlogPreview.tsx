@@ -11,7 +11,7 @@ const BlogPreview: React.FC<BlogPostProps> = ({
   tags,
 }) => {
   return (
-    <div key={id} className="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
+    <div key={id} className="grid md:grid-cols-2 sm:grid-cols-1 gap-6 mb-6">
       <div className="w-full h-80 relative">
         <Image src={img} alt={altTxt} fill={true} />
       </div>
