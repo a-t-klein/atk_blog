@@ -18,7 +18,7 @@ const config: Config = {
         "primary-red": "rgb(219, 0, 0)",
       },
       borderWidth: {
-        custom: "2px",
+        custom: "1.5px",
       },
       borderStyle: {
         custom: "solid",

@@ -4,7 +4,7 @@ import { IBM_Plex_Mono } from "next/font/google";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
-const mono = IBM_Plex_Mono({ subsets: ["cyrillic"], weight: "400" });
+const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Alex Klein's blog",
